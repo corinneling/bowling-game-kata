@@ -10,7 +10,7 @@ class TestBowling < Minitest::Test
 
   def test_setup
     assert true, @bowl = Bowling.new
-    assert true, @bowl.roll(n)
+    assert true, @bowl.roll(2)
     assert true, @bowl.score
   end
 
