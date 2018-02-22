@@ -1,5 +1,5 @@
 class Bowling
-  def roll
+  def roll(n)
   end
   def score
   end
